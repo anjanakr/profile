@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>sn_patachala.kyunhadsa</api_name>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>kyunhadsa</name>
+        <script><![CDATA[var kyunhadsa = Class.create();
+kyunhadsa.prototype = {
+    initialize: function() {
+    },
+
+    type: 'kyunhadsa'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>anjana</sys_created_by>
+        <sys_created_on>2019-07-25 16:50:06</sys_created_on>
+        <sys_id>669a83a6b7323300cf70e2b9de11a92f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>kyunhadsa</sys_name>
+        <sys_package display_value="patachala" source="sn_patachala">2e898b26b7323300cf70e2b9de11a9d5</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="patachala">2e898b26b7323300cf70e2b9de11a9d5</sys_scope>
+        <sys_update_name>sys_script_include_669a83a6b7323300cf70e2b9de11a92f</sys_update_name>
+        <sys_updated_by>anjana</sys_updated_by>
+        <sys_updated_on>2019-07-25 16:50:06</sys_updated_on>
+    </sys_script_include>
+</record_update>
